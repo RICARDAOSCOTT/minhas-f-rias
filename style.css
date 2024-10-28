@@ -1,12 +1,22 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
-.cabecalho {
-background-color: rgb(red);
-color: aliceblue;
-display: flex;
-justify-content: space-around;
+header {
+    background: #e60000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
 
+main {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
